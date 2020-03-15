@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'welcome.dart';
+import 'login.dart';
 
 void main() => runApp(Main());
 
@@ -10,7 +11,7 @@ class Main extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Offshore Planning',
-      home: Welcome(),
+      home: Login()
     );
   }
 }
